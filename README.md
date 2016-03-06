@@ -16,7 +16,7 @@ Hover Mouse is android application which converts your mobile device to a wirele
 2. If the IPv4 address of the hotspot network is not 192.168.137.1 then change the constant [SERVER_IP](https://github.com/uneq95/HoverMouse/blob/master/app/src/main/java/com/ritesh/app/hovermouse/activity/ServerUtils/Constants.java) and rebuild the project.
 3. Open up the [HoverMouse Server](https://github.com/uneq95/HoverMouseServer) and run the [RemoteDroidServer.java](https://github.com/uneq95/HoverMouseServer/blob/master/src/RemoteDroidServer.java) file.
 4. Also remember to turn off the windows firewall, if working on Windows.
-5. Now open up the android app and press the back button, if it shows a Toast message "Connect to server", then you can notice you have control to the mouse pointer, otherwise try pressing the back button for connecting to server. If still cannot connect, then restart the server again. 
+5. Now open up the android app and press the back button, if it shows a Toast message "Connected to server", then you can notice you have control to the mouse pointer, otherwise try pressing the back button for connecting to server. If still cannot connect, then restart the server again. 
 
 ##### Dependencies
 
